@@ -9,6 +9,7 @@ cpp-core/**/Release/
 
 py-ai/venv/
 py-ai/__pycache__/
+**/.idea/
 
 #docs 
 
