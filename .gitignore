@@ -1,0 +1,44 @@
+#c++
+
+cpp-core/**/x64/
+cpp-core/**/Debug/
+cpp-core/**/Release/
+
+
+#python 
+
+py-ai/venv/
+py-ai/__pycache__/
+
+#docs 
+
+data/chunks/
+data/embeddings/
+docs/*.pdf
+docs/*.png
+docs/*.jpg
+
+
+# vs
+.vs/
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+ipch/
+*.ipch
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+DocumentLayout.json
+
+
+# secrets
+.env
+.env.local
+
+
+# os
+.DS_Store
+Thumbs.db
