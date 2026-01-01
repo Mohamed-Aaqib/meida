@@ -13,11 +13,7 @@ py-ai/__pycache__/
 
 #docs 
 
-data/chunks/
-data/embeddings/
-docs/*.pdf
-docs/*.png
-docs/*.jpg
+data/
 
 
 # vs
