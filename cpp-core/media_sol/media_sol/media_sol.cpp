@@ -1,3 +1,4 @@
+#include <tesseract/baseapi.h>
 #include <iostream>
 
 int main()
