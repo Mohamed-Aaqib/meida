@@ -1,7 +1,8 @@
 #include <vector>
-#include "utils/FileUtils.h"
 #include <string>
 #include <filesystem>
+#include "utils/FileUtils.h"
+#include <poppler/cpp/poppler-document.h>
 
 
 std::vector<std::string> listPDFFiles(const std::string& folderPath) {
@@ -12,5 +13,5 @@ std::vector<std::string> listPDFFiles(const std::string& folderPath) {
 			pdfs.push_back(entry.path().string());
 		}
 	}
-
+	return pdfs;
 }
