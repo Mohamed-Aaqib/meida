@@ -131,7 +131,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\core\Chunker.cpp" />
+    <ClCompile Include="..\..\src\core\ThreadPool.cpp" />
+    <ClCompile Include="..\..\src\processors\PDFProcessor.cpp" />
+    <ClCompile Include="..\..\src\utils\FileUtils.cpp" />
     <ClCompile Include="media_sol.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\core\Chunker.h" />
+    <ClInclude Include="..\..\include\core\ThreadPool.h" />
+    <ClInclude Include="..\..\include\processors\PDFProcessor.h" />
+    <ClInclude Include="..\..\include\utils\FileUtils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

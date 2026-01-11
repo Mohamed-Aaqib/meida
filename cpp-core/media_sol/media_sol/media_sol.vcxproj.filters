@@ -13,10 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{92ec3f82-7ab7-4cb2-b9dd-9ce65219f934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2a712079-1e43-48d9-a10e-fd7431971ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{6c92e024-de17-41a9-8d30-cb9f2eedfc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{8405be84-299d-42c9-b551-37b7d2b8d1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\processors">
+      <UniqueIdentifier>{e47ee7ba-00c5-46fb-a608-08551f6f8e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\processors">
+      <UniqueIdentifier>{852faa90-39bf-4202-8972-635113db9b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils">
+      <UniqueIdentifier>{c8f1cd2f-64ed-4bb0-b7ff-b324552901f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{2a72e430-7db1-42a5-93f7-e2e19dd9a7d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="media_sol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\utils\FileUtils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\ThreadPool.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\processors\PDFProcessor.cpp">
+      <Filter>src\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\Chunker.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\utils\FileUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\ThreadPool.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\processors\PDFProcessor.h">
+      <Filter>include\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\Chunker.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
