@@ -1,0 +1,7 @@
+spacy==3.7.4
+networkx==3.3
+orjson==3.10.7
+rapidfuzz==3.9.6
+xxhash==3.4.1
+numpy==1.26.4
+tqdm==4.66.5
