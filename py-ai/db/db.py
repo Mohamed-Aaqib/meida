@@ -4,6 +4,7 @@ from mysql.connector import pooling
 
 _async_pool = None
 
+# initialize the pools correctly with the correct credentials 
 async def get_async_pool():
     global _async_pool
     if _async_pool is None:
